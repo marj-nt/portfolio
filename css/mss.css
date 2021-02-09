@@ -1,0 +1,64 @@
+.landing {
+    background-image: url('/images/mss/landing.jpg');
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-size:auto 100vh;
+    background-position: right;
+    border-bottom: 1.6rem solid #85B6C5;
+}
+
+h1 {
+    font-size: 2rem !important;
+}
+
+.projects-logo {
+    width: 10rem;
+}
+
+img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 60rem;
+}
+
+#mss-appendix img, #mss-appendix iframe {
+    width: 70%;
+    max-width: 50rem;
+    max-height: 50rem;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+figcaption {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 3.2rem;
+}
+
+/* #mss-ca iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+}
+
+#mss-ca figure {
+    padding: 0px !important;
+}
+
+.google-slides-container{
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+    overflow: hidden;
+    margin: 20px 0px;
+} */
+
+.sidenav {
+    background-color: #85B6C5 !important;
+}

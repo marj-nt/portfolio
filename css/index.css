@@ -1,0 +1,255 @@
+body {
+    width: 100%;
+    font-family: 'Roboto';
+    letter-spacing: 2%;
+    font-size: 16px;
+}
+
+.intro {
+    background-image: url('/images/index/background.jpg');
+    height: 100vh !important;
+    padding-top: 156px !important;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 0px 100px;
+    font-size: 18px;
+}
+
+.nav-item {
+    padding: 16px 0px;
+    margin-right: 24px;
+}
+
+.nav-item a {
+    color: white !important;
+    
+}
+
+.nav-placeholder {
+    height: 40px;
+    color: transparent;
+}
+
+.nav #contact-button {
+    background: rgba(155, 155, 155, 0.5);
+    border-radius: 100px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 0px;
+}
+
+.navbar img {
+    max-width: 50px;
+}
+
+.intro {
+    height: 100%;
+    font-size: 3em;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.intro p {
+    color: white;
+    font-size: 24px;
+    line-height: 200%;
+    font-weight: 300;
+}
+
+.intro #name, .intro aside {
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+}
+
+video {
+    width: 225px;
+}
+
+#video-container {
+    background-image: url('/images/index/phone-2.png');
+    margin-top: -20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h2 {
+    margin-bottom: 56px;
+}
+
+.intro img {
+    max-width: 250px;
+}
+
+.key-values {
+    /* background: linear-gradient(to right, whitesmoke, white); */
+    background: linear-gradient(white, #E7EBEE);
+}
+
+.key-values img {
+    max-width: 100px;
+    z-index: 1;
+}
+
+.key-values, .experience {
+    padding-top: 56px;
+    padding-bottom: 72px;
+}
+
+.key-values .outer-card {
+    background-color: rgb(36, 36, 36);
+}
+
+.key-values .outer-card {
+    width: 85% !important;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    
+}
+
+.key-values {
+    color: white;
+}
+
+.key-values h3 {
+    font-family: "Roboto Condensed";
+    width: 100%;
+    background: linear-gradient(to right, #632d8b, purple);
+    box-shadow: 0px 2px 4px black;
+}
+
+.key-values .inner-card {
+    background-color: rgb(36, 36, 36);
+    padding: 0px 20px;
+}
+
+.key-values h3 {
+    padding: 10px 0px;
+}
+
+.key-values p {
+    padding: 20px 0px;
+    border-bottom: 2px solid #632d8b;
+}
+
+.key-values img {
+    padding: 0px;
+}
+
+.design-delights img {
+    width: 65%;
+}
+
+.design-delights, .experience {
+    padding: 6.4rem 9.6rem;
+}
+
+.design-delights h3 {
+    color: #632d8b;
+}
+
+.design-delights p {
+    font-family: 'Roboto Light';
+}
+
+.experience .col-md-5 img {
+    width: 100%;
+}
+
+.experience .col-md-7 {
+    padding-left: 6.4rem;
+}
+
+.experience .row {
+    margin-bottom: 6.4rem;
+}
+
+.experience h3 {
+    font-family: 'Roboto Condensed';
+    font-size: 3rem;
+    color: #42047B;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.experience p {
+    font-size: 2rem;
+    margin-top: 4.8rem;
+}
+
+.experience button {
+    background: linear-gradient(to right, #42047B, #6D2390);
+    margin-top: 4.8rem;
+    border-radius: 5rem;
+    padding: 0.7em 4rem;
+    border: none;
+}
+
+.experience .col-md-6:nth-of-type(2) {
+    padding: 6.4rem;
+}
+
+.experience button a {
+    color: white;
+}
+
+.btn-primary {
+    max-width: 20rem;
+    max-height: 4rem;
+    padding: 4rem 20rem;
+    background: purple;
+    color: white;
+    border-radius: 2rem;
+}
+
+.custom-list {
+    margin-top: 4.8rem;
+    margin-bottom: 4.8rem;
+}
+
+#video-container {
+    visibility: hidden;
+}
+
+
+@media (min-width: 768px) {
+
+    .experience img {
+        width: 100%;
+    }
+
+    #video-container {
+        visibility: visible;
+        margin-top: -40px;
+    }
+
+}
+

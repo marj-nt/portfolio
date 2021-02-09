@@ -1,0 +1,79 @@
+.landing {
+    background-image: url('/images/golf-ai/landing.jpg');
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-size:auto 100vh;
+    background-position: right;
+    border-bottom: 1.6rem solid #b8eddd;
+}
+
+button {
+    font-size: 1.6rem;
+    width: 75%;
+    height: 4.8rem;
+    border-radius: 3.2rem;
+    margin: 0 auto;
+    margin: 3.2rem 0 3.2rem 0;
+    text-transform: uppercase;
+}
+
+.landing .col-md-6:nth-of-type(1) button {
+    background:none;
+    color: grey;
+    border: 2px solid grey;
+}
+
+.landing .col-md-6:nth-of-type(2) button {
+    background: none;
+    color: #4a9c5f;
+    border: 2px solid #4a9c5f;
+    font-weight: bold;
+}
+
+.sidenav {
+    background: #B8EDDD;
+    color: black;
+}
+
+.main-roles .col-md-4 {
+    text-align: center;
+}
+
+.main-roles .img {
+    text-align: center;
+    max-width: 40rem;
+}
+
+.main-roles p {
+    text-align: left;
+}
+
+#golf-ai-brand img, #golf-ai-components img {
+    width: 90%;
+}
+
+#golf-ai-different-hats img {
+    max-width: 300px;
+}
+
+#golf-ai-different-hats video {
+    max-width: 100%;
+}
+
+#golf-ai-screens img {
+    width: 90%;
+    margin: 0 auto;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: 0 0;
+    box-shadow: 2px 2px 8px rgb(211, 211, 211);
+    margin-bottom: 2.4rem;
+}
+
+#golf-ai-components p {
+    width: 90%;
+}
+
+#golf-ai-handoff img {
+    width: 90%;
+}

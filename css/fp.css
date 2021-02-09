@@ -1,0 +1,67 @@
+.landing {
+    background-image: url('/images/fp/landing.jpg');
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-size:auto 100vh;
+    background-position: right;
+    border-bottom: 1.6rem solid #A6C8ED;
+}
+
+.sidenav {
+    background-color: #A6C8ED;
+}
+
+img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.intro .col-md-5 {
+    padding-left: 3.2rem;
+}
+
+.col-md-4 img {
+    padding: 1.6rem;
+    background: url('/images/fp/square.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin-bottom: 1.6rem;
+}
+
+#fp-k4 .row:nth-of-type(1) p {
+    width: 90%;
+}
+
+.intro .problem {
+    margin-bottom: 2.4rem;
+}
+
+.intro img {
+    box-shadow: none !important;
+    background: none !important;
+    top: 0;
+    width: 70%;
+    padding: 0;
+}
+
+li {
+    font-size: 1.6rem !important;
+}
+
+ul {
+    margin: 0;
+}
+
+.intro .col-md-7 {
+    padding-right: 6.4rem;
+}
+
+.intro .col-md-4 {
+    padding: 0;
+}
+
+.row {
+    margin-bottom: 3.2rem;
+}

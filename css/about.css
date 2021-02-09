@@ -1,0 +1,17 @@
+.small-caps {
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 100%;
+    min-width: 400px;
+}
+
+aside {
+    font-size: 0.3em !important;
+    opacity: 0.75;
+}

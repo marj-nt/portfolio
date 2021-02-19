@@ -42,6 +42,10 @@ h3 {
     text-align: center;
 }
 
+.left {
+    text-align: left !important;
+}
+
 .projects .intro h1 {
     margin-bottom: 24px;
 }
@@ -112,6 +116,11 @@ h3 {
     transform: translateY(-50%);
 }
 
+.p-large {
+    font-family: "Roboto Condensed";
+    font-size: 4.5rem;
+}
+
 /* Text colors */
 
 .primary-color {
@@ -124,4 +133,39 @@ h3 {
 
 .tertiary-color {
     color: #6e6e6e !important;
+}
+
+.white-color {
+    color: whitesmoke;
+}
+
+/* Sidenav */
+
+.sidenav {
+    font-size: 1.8rem;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 15%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 25vh;
+    padding-left: 0rem;
+    opacity: 0;
+
+    font-family: "Roboto Condensed";
+
+}
+
+.sidenav li {
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    color: #2C2C2C;
+    margin-bottom: 1.6rem;
+}
+
+.sidenav a {
+    color: #2C2C2C;
 }

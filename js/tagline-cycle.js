@@ -41,13 +41,21 @@ function changeTagline(){
     
 
     setInterval(function(){
+       
+            setTimeout(function() {
+                video.currentTime = (i)*3;
+            }, 1000);
+        
+
 
         $('#tagline').fadeOut(function(){
             $(this).html(words[i=(i+1)%words.length]).fadeIn();
-            console.log('words changed')
+            
         });
 
-        video.currentTime = (i+1)*3;
+
+
+        
         
        // 2 seconds
     }, 3000);

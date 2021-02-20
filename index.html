@@ -60,22 +60,24 @@
 
     <main>
 
-        <section class="intro primary-color">
+        <section class="intro hide-sm primary-color">
 
-          <div class="white-card left">
+          <div class="white-card">
+
+            <img class="center" src="/images/icon.png"/>
               
-            <h1 class="secondary-color">Marjorie Tolentino</h1>
+            <h1 class="secondary-color left">Marjorie Tolentino</h1>
 
-            <p class="p-large">Multimedia designer bringing a creative intention to web and mobile experiences.</p>
+            <p class="p-large left">Multimedia designer bringing a creative intention to web and mobile experiences.</p>
          
           </div>
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-5">
-                      <!-- Empty -->
+                    <div class="col-md-6">
+                     
                     </div>
-                    <div class="col-md-7 center">
+                    <div class="col-md-6 center">
 
                       <h2 class="white-color left">I'm a <span id="tagline" class="accent-green">Technical Designer.</span></h2>
 
@@ -93,7 +95,20 @@
 
         </section>
 
-        <nav class="sidenav">
+        <section class="intro hide-lg center">
+          <h2 class="white-color left">I'm a <span id="tagline" class="accent-green">Technical Designer.</span></h2>
+          <video muted loop id="video">
+            <source src="images/index/cycle.m4v" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <h1 class="secondary-color left">Marjorie Tolentino</h1>
+
+            <p class="left">Multimedia designer bringing a creative intention to web and mobile experiences.</p>
+
+        </section>
+
+        <nav class="sidenav hide-sm">
 
           <ul>
   
@@ -173,9 +188,15 @@
           <div class="container">
             <div class="row">
               <div class="col-md-5">
+
                 <a href="projects/golf-ai.html">
-                  <img src="/images/index/golf-ai.png"/>
+                  <div class="wrapper">
+                    <div class="image zoom-in">
+                      <img id="golf-ai" class="loading" src="/images/golf-ai/logo.png"/>
+                    </div>
+                  </div>    
                 </a>
+
               </div>
               <div class="col-md-7">
                 <h3>Golf AI</h3>
@@ -195,7 +216,11 @@
             <div class="row">
               <div class="col-md-5">
                 <a href="projects/mss.html">
-                  <img src="/images/index/mss.png"/>
+                  <div class="wrapper">
+                    <div class="image zoom-in">
+                      <img id="mss" class="loading" src="/images/mss/logo.png"/>
+                    </div>
+                  </div>    
                 </a>
               </div>
               <div class="col-md-7">
@@ -216,7 +241,11 @@
             <div class="row">
               <div class="col-md-5">
                 <a href="projects/fp.html">
-                  <img src="/images/index/fp.png"/>
+                  <div class="wrapper">
+                    <div class="image zoom-in">
+                      <img id="fp" class="loading" src="/images/fp/logo.png"/>
+                    </div>
+                  </div>    
                 </a>
               </div>
               <div class="col-md-7">
@@ -264,6 +293,33 @@ $(window).scroll(function() {
     $('.sidenav').fadeOut();
    }
 });
+    </script>
+
+    <script>
+      $(window).on('scroll', function(){
+
+        $('.experience .wrapper').each(function () {
+
+          var current = $(window).scrollTop() + $(window).height();
+        // console.log(current);
+
+       
+
+        var wrapperHeight = $(this).offset().top + $(this).height() + 200;
+        console.log(wrapperHeight)
+
+        if((wrapperHeight  - 200) < current && (wrapperHeight + 200 > current)) {
+
+          $(this).find('.image').css('background-size', '110% 110%');
+          $(this).find('.loading').css('opacity', 1);
+        } else {
+          $(this).find('.image').css('background-size', '100% 100%');
+          $(this).find('.loading').css('opacity', 0);
+        }
+    });
+    
+
+      });
     </script>
     
   </body>

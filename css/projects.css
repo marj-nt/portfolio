@@ -11,6 +11,14 @@ html {
     box-shadow: none;
 }
 
+.landing-top img {
+    max-width: 75px;
+    position: absolute;
+    margin-bottom: 0;
+    right: 1rem;
+    bottom: 1rem;
+}
+
 .landing-top {
     height: 60vh;
     background-size: cover;
@@ -19,6 +27,7 @@ html {
 }
 
 .landing-bottom {
+    margin-left: 0.8rem;
     padding: 2.4rem 1.2rem;
 }
 
@@ -91,7 +100,7 @@ h2 {
 }
 
 .main-content h2 {
-    margin-bottom: 4.8rem;
+    margin-bottom: 1.6rem;
 }
 
 h3, h4, h5 {
@@ -212,10 +221,6 @@ h2, h3, h4 {
     line-height: 125%;
 }
 
-.intro img {
-    width: 70% !important;
-}
-
 section {
     scroll-margin: -20px;
 }
@@ -279,7 +284,15 @@ section {
         padding: 0 6.4rem;
     }
 
+    .main-content h2 {
+        margin-bottom: 4.8rem;
+    }
+
     .main-content section {
         padding: 5.6rem 0;
+    }
+
+    .intro img {
+        width: 70%;
     }
 }

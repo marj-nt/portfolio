@@ -7,6 +7,14 @@
     border-bottom: 1.6rem solid #b8eddd;
 }
 
+.landing-top {
+    background-image: url('/images/golf-ai/landing.jpg');
+}
+
+.landing-bottom {
+    border-left: 2px solid #B8EDDD;
+}
+
 button {
     font-size: 1.6rem;
     width: 75%;
@@ -35,6 +43,14 @@ button {
     color: black;
 }
 
+/* img {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    background-image: url("/images/green-bg.png");
+    background-repeat: no-repeat;
+    background-size: 95% 95%;
+} */
+
 .main-roles .col-md-4 {
     text-align: center;
 }
@@ -46,6 +62,32 @@ button {
 
 .main-roles p {
     text-align: left;
+}
+
+#golf-ai-intro .row {
+    border-bottom: 2px solid lightgray;
+    padding-top: 3.6rem;
+}
+
+#golf-ai-intro .row:last-of-type {
+    border-bottom: none;
+}
+
+#golf-ai-intro video {
+    box-shadow: 1px 1px 10px rgb(221, 221, 221);
+}
+
+    /* .problem-group, img, video {
+        box-shadow: 1px 1px 10px rgb(221, 221, 221);
+    } */
+
+.problem-group {
+    margin-bottom: 4.8rem;
+    padding: 2.4rem 1.2rem;
+}
+
+.problem-group p:nth-of-type(3) {
+    margin-bottom: 0 !important;
 }
 
 #golf-ai-brand img, #golf-ai-components img {
@@ -60,20 +102,114 @@ button {
     max-width: 100%;
 }
 
-#golf-ai-screens img {
-    width: 90%;
+#golf-ai-different-hats img, #golf-ai-different-hats video {
+    box-shadow: 2px 2px 4px #F8F8F8;
+}
+
+#golf-ai-screens .container img {
+    width: 98%;
     margin: 0 auto;
-    max-height: 400px;
+    max-height: 225px;
     object-fit: cover;
     object-position: 0 0;
     box-shadow: 2px 2px 8px rgb(211, 211, 211);
     margin-bottom: 2.4rem;
 }
 
+#golf-ai-screens .row {
+    margin-bottom: 4.8rem;
+}
+
+.premium .row {
+    margin-bottom: 2.4rem !important;
+}
+
+/* 2 hifis */
+.premium .row:first-of-type .col-md-6:nth-of-type(1) .col img:nth-of-type(1) {
+    width: 90%;
+}
+
+.premium .row .col-md-6 .row h4 {
+    color: #1a9c5f !important;
+    border-bottom: 2px solid #1a9c5f;
+}
+
+.premium .row .col-md-6 {
+    padding-right: 2.4rem;
+}
+
+.premium .row:nth-of-type(2) .col-md-6:first-of-type {
+    /* border-right: 2px solid grey; */
+    padding-right: 3.2rem;
+}
+
+.premium h4 {
+    border-bottom: 2px solid grey;
+    margin-bottom: 1.2rem;
+}
+
+.premium .row:nth-of-type(2) .p-small {
+    min-height: 10rem;
+}
+
+.premium .row:nth-of-type(2) .col-md-6:nth-of-type(2) {
+    padding-left: 3.2rem;
+}
+
 #golf-ai-components p {
     width: 90%;
 }
 
-#golf-ai-handoff img {
-    width: 90%;
+#golf-ai-components .row {
+    margin-bottom: 2.4rem;
+}
+
+#golf-ai-components .col-md-8 img {
+    width: 70%;
+}
+
+#golf-ai-screens .col-md-4 {
+    /* border-right: 2px solid #6e6e6e7c; */
+}
+
+#golf-ai-screens .col-md-4:last-of-type {
+    border: none;
+}
+
+#golf-ai-screens .col-md-4 li {
+    font-size: 1.4rem !important;
+    color: #6e6e6e;
+}
+
+#golf-ai-reflection figure {
+    font-size: 4.8rem;
+    color: #1a9c5f
+}
+
+#golf-ai-reflection aside {
+    font-size: 1.6rem;
+}
+
+.next-project .container {
+    width: 100%
+}
+
+.next-project .containter {
+    background-color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+
+    /* #golf-ai-screens .col-md-6 img, #golf-ai-screens .col-md-6 p, #golf-ai-screens .col-md-6 video {
+        width: 90%;
+    } */
+
+    #golf-ai-screens .col-md-6, #golf-ai-handoff .col-md-6 {
+        padding-right: 7.2rem;
+    }
+
+    #golf-ai-handoff .row {
+        margin-bottom: 2.4rem;
+    }
+
 }

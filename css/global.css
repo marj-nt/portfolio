@@ -91,6 +91,15 @@ h3 {
     height: 100vh;
 }
 
+.small-caption {
+    font-size: 1.4rem;
+    color: #4c4c4c !important;
+}
+
+.main-content img:hover {
+    cursor: pointer;
+}
+
 .custom-list {
     list-style: none;
     padding-left: 0;
@@ -139,9 +148,23 @@ h3 {
     color: whitesmoke;
 }
 
+/* Mobile */
+
+.hide-sm {
+    display: none;
+}
+
 /* Sidenav */
 
 @media (min-width: 768px) {
+
+    .hide-sm {
+        display: block;
+    }
+
+    .hide-lg {
+        display: none !important;
+    }
 
     .sidenav {
         font-size: 1.8rem;
@@ -152,7 +175,7 @@ h3 {
         top: 0; /* Stay at the top */
         right: 0;
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 25vh;
+        padding-top: 9.6rem;
         padding-left: 0rem;
         opacity: 0;
     
@@ -171,5 +194,5 @@ h3 {
     .sidenav a {
         color: #2C2C2C;
     }
-    
+
 }

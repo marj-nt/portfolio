@@ -11,6 +11,25 @@ html {
     box-shadow: none;
 }
 
+.landing-top {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.landing-bottom {
+    padding: 2.4rem 1.2rem;
+}
+
+.landing-bottom h1 {
+    margin-bottom: 1.2rem;
+}
+
+.landing-sm p {
+    font-size: 2.4rem;
+}
+
 * {
     box-sizing: border-box
   }
@@ -37,10 +56,6 @@ html {
     box-shadow: none !important;
 }
 
-.main-content {
-    padding: 0 6.4rem;
-}
-
 .main-content img {
     width: 100%;
 }
@@ -57,27 +72,6 @@ html {
 
 .extra-space {
     margin-bottom: 5.6rem;
-}
-
-.main-content, .next-project {
-    width: 85%;
-    float: left;
-    background: white;
-}
-
-.next-project {
-    position: relative;
-    border: 10px solid whitesmoke;
-}
-
-.next-project h5 {
-position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.next-project img {
-    width: 100%;
 }
 
 h1 {
@@ -174,12 +168,32 @@ li {
     margin-bottom: 0.8rem;
 }
 
+.sidenav .menu #hamburger-icon {
+    color: #4b4b4b;
+    font-size: 3.2rem;
+}
+
+.sidenav img {
+    max-width: 75px;
+    transform: scale(1.0);
+    transition: 0.2s;
+}
+
+.sidenav img:hover {
+    transform: scale(0.8);
+    transition: 0.2s;
+}
+
 .sidenav li:hover {
     cursor: pointer;
 }
 
 .sidenav .active {
     color: purple !important;
+}
+
+.sidenav ul {
+    margin-bottom: 4.8rem;
 }
 
 figcaption {
@@ -218,6 +232,54 @@ section {
 }
 
 .next-project h5 {
-    font-size: 3.6rem;
+    font-size: 2.4rem;
     
+}
+
+.bottom-content {
+    background-color: whitesmoke;
+    width: 100% !important;
+    margin-bottom: 7.2rem;
+}
+
+aside {
+    margin-bottom: 3.2rem !important;
+}
+
+.main-content {
+    width: 95%;
+    float: left;
+    background: white;
+    padding-left: 2.4rem;
+}
+
+.next-project {
+    position: relative;
+    border: 10px solid whitesmoke;
+}
+
+.next-project img {
+    text-align: center;
+    max-width: 200px;
+}
+
+/* mobile */
+
+section {
+    margin: 0 auto;
+}
+
+.main-content section {
+    padding: 2.4rem 0;
+}
+
+@media (min-width: 768px) {
+    .main-content {
+        width: 85%;
+        padding: 0 6.4rem;
+    }
+
+    .main-content section {
+        padding: 5.6rem 0;
+    }
 }

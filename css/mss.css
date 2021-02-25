@@ -7,8 +7,20 @@
     border-bottom: 1.6rem solid #85B6C5;
 }
 
-h1 {
-    font-size: 2rem !important;
+.landing-top {
+    background-image: url('/images/mss/landing.jpg');
+}
+
+.landing-top img {
+    max-width: 75px;
+    position: absolute;
+    margin-bottom: 0;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.landing-sm h1 {
+    font-size: 1.6rem;
 }
 
 .projects-logo {
@@ -61,4 +73,10 @@ figcaption {
 
 .sidenav {
     background-color: #85B6C5 !important;
+}
+
+@media (min-width: 768px) {
+    .landing h1 {
+        font-size: 2.4rem;
+    }
 }

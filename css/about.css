@@ -15,4 +15,13 @@
 
 .sidenav {
     background-color: none;
+    opacity: 1;
+}
+
+.intro {
+    padding-top: 8rem !important;
+}
+
+img {
+    width: 75%;
 }

@@ -202,7 +202,16 @@ h3 {
         color: #2C2C2C;
         margin-bottom: 1.6rem;
     }
+
+    .sidenav li img {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
     
+    .sidenav .active {
+        color: purple !important;
+    }
+
     .sidenav a {
         color: #2C2C2C;
     }

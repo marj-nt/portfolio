@@ -11,6 +11,10 @@ body {
     background-color: whitesmoke;
 }
 
+p {
+    font-family: 'Roboto';
+}
+
 .intro {
     background-image: url('/images/index/background.jpg');
     height: 100vh !important;

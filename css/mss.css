@@ -15,6 +15,10 @@
     font-size: 1.6rem;
 }
 
+.landing-bottom {
+    border-left: 2px solid #85B6C5;
+}
+
 .projects-logo {
     width: 10rem;
 }

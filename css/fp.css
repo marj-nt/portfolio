@@ -11,6 +11,10 @@
     background-image: url('/images/fp/landing.jpg');
 }
 
+.landing-bottom {
+    border-left: 2px solid #9CBEEE;
+}
+
 .sidenav {
     background-color: #A6C8ED;
 }

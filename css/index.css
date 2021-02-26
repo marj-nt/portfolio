@@ -30,11 +30,16 @@ p {
 }
 
 .intro h1 {
-    font-size: 2.4rem;
-    margin-bottom: 4.8rem;
     text-transform: uppercase;
     letter-spacing: 0.8rem;
     font-weight: lighter;
+    color: white;
+    margin-bottom: 1.2rem;
+    font-weight: 1.8rem;
+}
+
+#gif {
+    margin-bottom: 3.2rem;
 }
 
 /* Cycling text */
@@ -44,11 +49,6 @@ p {
     position: absolute;
     margin-left: 7.2rem;
     top: 0rem;
-}
-
-.intro h1 {
-    color: whitesmoke;
-    font-size: 1.8rem;
 }
 
 .intro h2 {
@@ -107,7 +107,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.8rem;
     font-weight: 300;
-    margin-bottom: 3.6rem
+    margin-bottom: 3.6rem;
 }
 
 .design-delights video {
@@ -302,7 +302,10 @@ h2 {
     }
 
     .intro h1 {
+        color: #2c2c2c;
+
         font-size: 2.4rem;
+        margin-bottom: 4.8rem;
     }
 
     .intro h2 {

@@ -38,3 +38,30 @@ function onScroll(event){
 }
 
 
+
+
+    var mainOpen = false;
+
+    $('.hamburger-icon').click(function() {
+        console.log('test')
+        if (mainOpen === false) {
+            $('.project-nav').fadeOut();
+            
+            $('.main-nav').fadeIn();
+            $('.hamburger-icon').html('&#10005;');
+            mainOpen = true;
+        } else if(mainOpen === true) {
+            $('.main-nav').fadeOut();
+            $('.project-nav').fadeIn();
+            $('.hamburger-icon').html('&#9776;');
+       
+            mainOpen = false;
+        }
+    })
+
+
+
+
+
+
+

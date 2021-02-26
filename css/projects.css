@@ -180,15 +180,46 @@ li {
     margin-bottom: 0.8rem;
 }
 
-.sidenav .menu #hamburger-icon {
+.sidenav {
+    text-align: center;
+}
+
+.sidenav .menu .hamburger-icon {
     color: #4b4b4b;
     font-size: 3.2rem;
+}
+
+.hamburger-icon:hover {
+    cursor: pointer !important;
+}
+
+.sidenav .main-nav, .sidenav .project-nav {
+    position: absolute;
+    top: 24rem;
+}
+
+.sidenav .hamburger-icon {
+    position: absolute;
+    bottom: 12rem;
+    left: 0;
+    right: 0;
+    padding-top: 2.4rem;
+    border-top: 2px solid lightgray;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .sidenav img {
     max-width: 75px;
     transform: scale(1.0);
     transition: 0.2s;
+    padding-bottom: 2.4rem;
+    border-bottom: 2px solid lightgray;
+    margin: 0 auto;
+}
+
+.sidenav .main-nav {
+    display: none;
 }
 
 .sidenav img:hover {

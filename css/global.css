@@ -207,4 +207,9 @@ h3 {
         color: #2C2C2C;
     }
 
+    .sidenav .links img {
+        width: 40px;
+        margin: 0 auto;
+    }
+
 }

@@ -200,7 +200,7 @@ li {
 
 .sidenav .hamburger-icon {
     position: absolute;
-    bottom: 12rem;
+    bottom: 4rem;
     left: 0;
     right: 0;
     padding-top: 2.4rem;
@@ -229,6 +229,11 @@ li {
 
 .sidenav li:hover {
     cursor: pointer;
+}
+
+.sidenav li img {
+    padding-bottom: 0;
+    border-bottom: 0;
 }
 
 .sidenav .active {

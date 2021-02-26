@@ -5,7 +5,7 @@
     $('.sidenav').fadeOut();
 
     $(window).scroll(function() {
-        if($(window).width > 768) {
+        if($(window).width() > 768) {
             var hT = $('.intro').offset().top,
             hH = $('.intro').outerHeight(),
             wH = $(window).height(),

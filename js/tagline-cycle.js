@@ -11,6 +11,7 @@ function changeTagline(){
     // video
 
     var video = document.getElementById('video');
+    var gif = document.getElementById('gif');
 // var source = document.createElement('source');
 
 // source.setAttribute('src', 'images/index/phone-1.mp4');

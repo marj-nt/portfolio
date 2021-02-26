@@ -162,6 +162,10 @@ h3 {
     display: none;
 }
 
+.sidenav {
+    opacity: 0;
+}
+
 /* Sidenav */
 
 @media (min-width: 768px) {

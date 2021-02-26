@@ -133,7 +133,6 @@ h4 {
     color: #2C2C2C !important;
     font-size: 2.4rem;
     font-weight: lighter;
-    margin-left: 2.4rem;
 }
 
 p, li {
@@ -298,5 +297,9 @@ section {
 
     .intro img {
         width: 70%;
+    }
+
+    .h2-alt {
+        margin-left: 2.4rem;
     }
 }

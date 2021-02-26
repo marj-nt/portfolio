@@ -15,8 +15,6 @@
 
     <title>Marjorie Tolentino - Portfolio</title>
 
-    <script src="/js/header-footer.js" language="JavaScript" type="text/javascript"></script> 
-    
   </head>
 
   <header>
@@ -164,43 +162,43 @@
                 My creative focus is in the areas of <b>user interface design</b>, as well as <b>video and graphics creation</b>.  I’m interested in any opportunities to work on well-rounded multimedia projects!
               </p>
 
-              <a>
+              <!-- <a>
                 <button>
                   Contact Me
                 </button>
-              </a>
+              </a> -->
             </div>
             <div class="col-md-7">
 
               <h2 class="left">My Design Delights</h2>
 
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-4 col-md-3">
                   <video muted autoplay loop>
                     <source src="images/golf-ai/skills-1.mp4"/>
                     </video>
                 </div>
-                <div class="col-md-9">
+                <div class="col-8 col-md-9">
                   <h3>Visual Design</h3>
                   <p>Developing cohesive brands representing the product’s nature</p>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-4 col-md-3">
                   <img src="/images/index/design-delights.png"/>
                 </div>
-                <div class="col-md-9">
+                <div class="col-8 col-md-9">
                   <h3>Motion & Interaction</h3>
                   <p>Creating reactive relatonships through motion and feedback</p>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-4 col-md-3">
                   <img src="/images/index/design-delights.png"/>
                 </div>
-                <div class="col-md-9">
+                <div class="col-8 col-md-9">
                   <h3>Information Architecture</h3>
                   <p>Transforming structure to best guide users</p>
                 </div>
@@ -332,23 +330,28 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="/js/tagline-cycle.js"></script>
-
     <script>
       $('.sidenav').fadeOut();
 
-$(window).scroll(function() {
-   var hT = $('.intro').offset().top,
-       hH = $('.intro').outerHeight(),
-       wH = $(window).height(),
-       wS = $(this).scrollTop();
-   if (wS > (hH - hT)){
-       $('.sidenav').css('opacity', 1);
-       $('.sidenav').css('background-color', "#DED0E6");
-       $('.sidenav').fadeIn();
-   } else {
-    $('.sidenav').fadeOut();
-   }
-});
+
+    $(window).scroll(function() {
+        if($(window).width > 768) {
+            var hT = $('.intro').offset().top,
+                hH = $('.intro').outerHeight(),
+                wH = $(window).height(),
+                wS = $(this).scrollTop();
+            if (wS > (hH - hT)){
+                $('.sidenav').css('opacity', 1);
+                $('.sidenav').css('background-color', "#DED0E6");
+                $('.sidenav').fadeIn();
+            } else {
+              $('.sidenav').fadeOut();
+            }
+          }
+        else {
+
+        }
+      });
     </script>
 
     <script>
@@ -362,7 +365,6 @@ $(window).scroll(function() {
        
 
         var wrapperHeight = $(this).offset().top + $(this).height() + 200;
-        console.log(wrapperHeight)
 
         if((wrapperHeight  - 200) < current && (wrapperHeight + 200 > current)) {
 

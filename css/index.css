@@ -264,10 +264,6 @@ h2 {
 
 }
 
-.hide-sm {
-    display: none;
-}
-
 /* Mobile */
 
 .design-delights, .experience {
@@ -282,6 +278,10 @@ h2 {
 .experience .image {
     width: 250px;
     height: 250px;
+}
+
+.hide-sm {
+    display: none;
 }
 
 
@@ -339,6 +339,7 @@ h2 {
     }
 
     .sidenav {
+        background-color: #DED0E6;
         opacity: 0;
     }
 

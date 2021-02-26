@@ -1,19 +1,28 @@
 // Sidenav appears after landing
 
+
+
     $('.sidenav').fadeOut();
 
     $(window).scroll(function() {
-    var hT = $('.intro').offset().top,
-        hH = $('.intro').outerHeight(),
-        wH = $(window).height(),
-        wS = $(this).scrollTop();
-    if (wS > (hH - hT)){
-        $('.sidenav').css('opacity', 1);
-        $('.sidenav').fadeIn();
-    } else {
-        $('.sidenav').fadeOut();
-    }
-    });
+        if($(window).width > 768) {
+            var hT = $('.intro').offset().top,
+            hH = $('.intro').outerHeight(),
+            wH = $(window).height(),
+            wS = $(this).scrollTop();
+            if (wS > (hH - hT)){
+                $('.sidenav').css('opacity', 1);
+                $('.sidenav').fadeIn();
+            } else {
+                $('.sidenav').fadeOut();
+            }
+        } 
+        else {
+
+        }
+    })
+
+ 
   
 
 

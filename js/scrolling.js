@@ -1,19 +1,29 @@
 // Sidenav appears after landing
 
-$('.sidenav').fadeOut();
+if(!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))){
+    // true for mobile device
+    document.write("mobile device");
+  }else{
+    // false for not mobile device
+    document.write("not mobile device");
 
-$(window).scroll(function() {
-   var hT = $('.intro').offset().top,
-       hH = $('.intro').outerHeight(),
-       wH = $(window).height(),
-       wS = $(this).scrollTop();
-   if (wS > (hH - hT)){
-       $('.sidenav').css('opacity', 1);
-       $('.sidenav').fadeIn();
-   } else {
     $('.sidenav').fadeOut();
-   }
-});
+
+    $(window).scroll(function() {
+    var hT = $('.intro').offset().top,
+        hH = $('.intro').outerHeight(),
+        wH = $(window).height(),
+        wS = $(this).scrollTop();
+    if (wS > (hH - hT)){
+        $('.sidenav').css('opacity', 1);
+        $('.sidenav').fadeIn();
+    } else {
+        $('.sidenav').fadeOut();
+    }
+    });
+  }
+
+
 
 // Scroll
 

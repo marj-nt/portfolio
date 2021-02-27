@@ -17,7 +17,7 @@ p {
 
 .intro {
     background-image: url('/images/index/background.jpg');
-    height: 100vh !important;
+    min-height: 100vh !important;
     padding-top: 2.4rem;
     padding-left: 1.2rem;
 

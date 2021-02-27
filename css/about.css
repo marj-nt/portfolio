@@ -22,7 +22,6 @@
 
 .intro {
     padding-top: 8rem !important;
-    height: 100% !important;
     padding-bottom: 8rem;;
 }
 
@@ -41,4 +40,5 @@
     img {
         width: 75%;
     }
+
 }

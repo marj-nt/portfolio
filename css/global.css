@@ -230,6 +230,47 @@ h3 {
     color: purple;
 }
 
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-wrapper img {
+    width: 100px;
+    animation: rotation 2s infinite;
+    -webkit-animation: rotation 2s infinite;
+}
+
+.disable-scrolling {
+    overflow: hidden;
+    height: 100%;
+}
+
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
 /* Sidenav */
 
 @media (min-width: 768px) {

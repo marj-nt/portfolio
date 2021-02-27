@@ -166,6 +166,66 @@ h3 {
     opacity: 0;
 }
 
+.sidenav-sm {
+    z-index: 1;
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    padding-top: 2.4rem;
+    transition: 0.5s linear;
+    height: auto;
+}
+
+.sidenav-sm .open {
+    height: 75vh;
+    transition: 0.5s linear;
+}
+
+.sidenav-sm {
+    font-family: "Roboto Condensed";
+    padding: 1.2rem;
+    padding-left: 2.4rem;
+    font-size: 1.8rem;
+    box-sizing: 2px 2px 4px lightgray;
+}
+
+.sidenav-sm a {
+    color: #2c2c2c;
+}
+
+.sidenav-sm ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.6rem;
+}
+
+.sidenav-sm li {
+    margin-bottom: 1.2rem;
+}
+
+.sidenav-sm img {
+    width: 50px;
+}
+
+.sidenav-sm .hamburger-sm {
+    font-size: 3.2rem;
+    color: #6e6e6e;
+}
+
+.sidenav-sm .links {
+    display: none;
+}
+
+.open .hamburger-sm {
+    padding-bottom: 1.6rem;
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 2.4rem;
+}
+
+.hamburger-sm {
+    cursor: pointer;
+}
+
 /* Sidenav */
 
 @media (min-width: 768px) {

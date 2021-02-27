@@ -29,6 +29,10 @@ p {
     
 }
 
+.intro img {
+    max-width: 200px;
+}
+
 .intro h1 {
     text-transform: uppercase;
     letter-spacing: 0.8rem;
@@ -76,10 +80,6 @@ p {
 .white-card img {
     max-width: 150px;
     margin-bottom: 4.8rem;
-}
-
-video, .hide-lg img {
-    width: 20rem;
 }
 
 h2 {
@@ -266,6 +266,10 @@ h2 {
 }
 
 /* Mobile */
+
+.sidenav-sm {
+    background-color: rgba(222,208, 230, 0.9);
+}
 
 .design-delights, .experience {
     width: 90%;

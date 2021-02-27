@@ -71,6 +71,10 @@ figcaption {
     background-color: #85B6C5 !important;
 }
 
+.sidenav-sm {
+    background-color: rgb(133, 182, 197, 0.9)
+}
+
 @media (min-width: 768px) {
     .landing h1 {
         font-size: 2.4rem;

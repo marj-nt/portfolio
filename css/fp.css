@@ -74,6 +74,10 @@ ul {
     margin-bottom: 3.2rem;
 }
 
+.sidenav-sm {
+    background-color: rgb(166, 200, 237, 0.9);
+}
+
 @media (min-width: 768px) {
     .intro img {
         width: 70%;

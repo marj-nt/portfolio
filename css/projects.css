@@ -231,11 +231,6 @@ li {
     cursor: pointer;
 }
 
-.sidenav li img {
-    padding-bottom: 0;
-    border-bottom: 0;
-}
-
 .sidenav .active {
     color: purple !important;
 }
@@ -261,7 +256,7 @@ h2, h3, h4 {
 }
 
 section {
-    scroll-margin: -20px;
+    scroll-margin: 50px;
 }
 
 .reflection {
@@ -307,6 +302,28 @@ aside {
     max-width: 200px;
 }
 
+.sidenav-sm .active-menu {
+    display: none;
+    font-size: 1.8rem;
+}
+
+.sidenav-sm .project-nav {
+    display: none;
+}
+
+.sidenav-sm .links img {
+    margin-bottom: 1.2rem;
+}
+
+.sidenav-sm ul {
+    position: fixed;
+    top: 13rem;
+}
+
+.sidenav-sm .active-menu {
+    cursor: pointer;
+}
+
 /* mobile */
 
 section {
@@ -337,5 +354,9 @@ section {
 
     .h2-alt {
         margin-left: 2.4rem;
+    }
+
+    section {
+        scroll-margin: -20px;
     }
 }

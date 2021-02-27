@@ -67,6 +67,7 @@ html {
 
 .intro img {
     box-shadow: none !important;
+    cursor: default !important;
 }
 
 .main-content img {

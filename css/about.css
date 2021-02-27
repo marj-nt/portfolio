@@ -20,8 +20,23 @@
 
 .intro {
     padding-top: 8rem !important;
+    height: 100% !important;
+    padding-bottom: 8rem;;
 }
 
-img {
+.intro img {
     width: 75%;
+    margin: 0 auto;
+}
+
+.intro aside {
+    color: whitesmoke;
+}
+
+
+
+@media (min-width: 768px) {
+    img {
+        width: 75%;
+    }
 }

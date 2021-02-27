@@ -226,6 +226,10 @@ h3 {
     cursor: pointer;
 }
 
+.sidenav-sm .active {
+    color: purple;
+}
+
 /* Sidenav */
 
 @media (min-width: 768px) {

@@ -63,10 +63,10 @@
 
       <ul class="links">
         <li>
-          <a class="active" href="/index.html">Home</a>
+          <a href="/index.html">Home</a>
         </li>
         <li>
-          <a href="/about.html">About</a>
+          <a class="active" href="/about.html">About</a>
         </li>
         <li>
           <a href="/resume.pdf">Resume</a>
@@ -88,10 +88,11 @@
         </li>
       </ul>
     </nav>
+    
 
     <main>
 
-      <section class="intro primary-color">
+      <section class="intro hide-sm primary-color">
 
         <div class="white-card left">
             
@@ -120,6 +121,16 @@
 
       </section>
 
+      <section class="intro hide-lg center">
+        <img src="/images/about/me.png"/>
+        <aside class="left">Creativity is how I make sense of the world.</aside>
+
+        <p class="left">I’m Marj, nice to meet you!  I call myself a “Techreator” because I express myself through digital mediums.  I create travel videos and produce R&B music.  As a consumer, I immerse myself in the worlds of video games.  I love the potential that comes with learning new skills - I’m currently practicing digital art and motion design.
+          <br><br>
+          Hifi visual work is my favorite part of the design process.  Being able to transform information and shape its expression is a challenge I look forward to with each flow.
+          </p>
+      </section>
+
     </main>
 
     <!-- Optional JavaScript -->
@@ -127,5 +138,28 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     
+    <script>
+
+      navOpen = false;
+
+    $('.hamburger-sm').click(function() {
+        if(navOpen === false) {
+          $('.sidenav-sm').addClass('open');
+          $('.sidenav-sm .hamburger-sm').html('&#10005;');
+          $('.sidenav-sm .links').fadeIn();
+          navOpen = true;
+        } else if(navOpen === true) {
+          $('.sidenav-sm .links').fadeOut();
+          $('.sidenav-sm').removeClass('open');
+          $('.sidenav-sm .hamburger-sm').html('&#9776;');
+
+          navOpen = false;
+        }
+
+    })
+    
+
+    </script>
+
   </body>
 </html>

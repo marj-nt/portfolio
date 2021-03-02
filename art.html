@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="/css/modal.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/art.css" />
+
+    <title>Personal Art - Marjorie Tolentino</title>
+  </head>
+
+  <header></header>
+
+  <body>
+    <main>
+      <nav class="sidenav hide-sm">
+        <ul class="links">
+          <li>
+            <a class="active" href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/resume.pdf">Resume</a>
+          </li>
+          <li>
+            <a href="mailto:marjorientolentino@gmail.com">
+              <img src="/images/email.png" alt="Click to send me an email" />
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/mntolent">
+              <img src="/images/linkedin.png" alt="Click to view my Linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/marj-nt">
+              <img src="/images/github.png" alt="Click to view my Github" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="sidenav-sm hide-lg">
+        <div class="hamburger-sm">&#9776;</div>
+
+        <ul class="links">
+          <li>
+            <a class="active" href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/resume.pdf">Resume</a>
+          </li>
+          <li>
+            <a href="mailto:marjorientolentino@gmail.com">
+              <img src="/images/email.png" alt="Click to send me an email" />
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/mntolent">
+              <img src="/images/linkedin.png" alt="Click to view my Linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/marj-nt">
+              <img src="/images/github.png" alt="Click to view my Github" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col center">
+                  <h2>
+                    16 Personalities Self Portrait
+                  </h2>
+              </div>
+              <div class="col">
+                  <img src="/images/art/16-personalities.png" onclick="enlarge(this)"/>
+              </div>
+          </div>
+
+          <div class="row align-items-center">
+            <div class="col">
+                <img src="/images/art/gta-sa.png" onclick="enlarge(this)"/>
+            </div>
+            <div class="col center">
+                <h2>
+                  GTA: San Andreas Self Portrait
+                </h2>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col center">
+                <h2>
+                  Nathan Scott Geometric Portrait
+                </h2>
+            </div>
+            <div class="col center">
+                <img src="/images/art/Nathan-Geometric-01.png" onclick="enlarge(this)"/>
+            </div>
+        </div>
+
+        <!-- <div class="row align-items-center">
+            <div class="col">
+                <img src="/images/art/sprite.gif" onclick="enlarge(this)"/>
+            </div>
+            <div class="col">
+                <h2>
+                  Animated Sprite Self Portrait
+                </h2>
+            </div>
+        </div> -->
+
+        <div class="row align-items-center">
+            <div class="col">
+                <img src="/images/art/wordwind.jpg" onclick="enlarge(this)"/>
+            </div>
+            <div class="col center">
+                <h2>
+                  Wordwind App Concept
+                </h2>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col center">
+                <h2>
+                  Logo Design
+                  <br>
+                  for Esthetics by Zay
+                </h2>
+            </div>
+            <div class="col">
+                <img src="/images/art/zeina-logo-with-text.png" onclick="enlarge(this)"/>
+            </div>
+        </div>
+
+      </div>
+
+      <div id="modal01" class="modal">#</div>
+
+      <div class="loader-wrapper">
+        <img src="/images/icon-grey.png" />
+      </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/js/modal.js"></script>
+    <script src="/js/loader.js"></script>
+    <script src="/js/scroll-nav.js"></script>
+
+  </body>
+</html>

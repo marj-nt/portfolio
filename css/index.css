@@ -206,13 +206,15 @@ h2 {
     width: 75px;
     background-image: none;
     position: absolute;
-    right: 15px;
-    top: 0;
+    right: -15px;
+    top: 0px;
+    display: none;
 }
 
 .loading {
     opacity: 0;
     -webkit-animation: rotation 5s infinite linear;
+    transform-origin: center center;
     transition: 0.3s linear;
 }
 
@@ -325,7 +327,7 @@ h2 {
     }
 
     video {
-        width: 30.5rem;
+        height: 70vh;
     }
 
     .main-content {
@@ -395,4 +397,15 @@ h2 {
         margin-top: 9.2rem;
     }
 
+}
+
+@media (min-width: 2560px) {
+
+    .intro .p-large {
+        font-size: 8rem !important
+    }
+
+    h2 {
+        font-size: 8rem !important;
+    }
 }

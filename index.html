@@ -97,32 +97,33 @@
 
       <section class="intro hide-sm primary-color">
         <div class="white-card">
-          <img class="center" src="/images/icon.png" />
-
-          <h1 class="secondary-color left">Marjorie Tolentino</h1>
-
-          <p class="p-large left">
-            Multimedia designer bringing a creative intention to web and mobile
-            experiences.
-          </p>
+          <div class="white-card-outer">
+            <img class="left" src="/images/icon.png" />
+            <h1 class="secondary-color left">Marjorie Tolentino</h1>
+            <p class="p-large left">
+              Multimedia designer bringing a creative intention to web and mobile
+              experiences.
+            </p>
+          </div>
         </div>
 
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6 center">
-              <h2 class="white-color left">
-                I'm a
-                <span id="tagline" class="accent-green"
-                  >Technical Designer.</span
-                >
-              </h2>
-
-              <div id="video-container">
-                <video muted loop id="video">
-                  <source src="images/index/cycle.m4v" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+        <div class="video-outer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-6 center">
+                <h2 class="white-color left">
+                  I'm a
+                  <span id="tagline" class="accent-green"
+                    >Technical Designer.</span
+                  >
+                </h2>
+                <div id="video-container">
+                  <video muted loop id="video">
+                    <source src="images/index/cycle.m4v" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
               </div>
             </div>
           </div>
@@ -191,9 +192,9 @@
               <h2 class="left">My Design Delights</h2>
 
               <div class="row">
-                <div class="col-4 col-md-3">
+                <!-- <div class="col-4 col-md-3">
                   <img src="/images/index/design-delights.png" />
-                </div>
+                </div> -->
                 <div class="col-8 col-md-9">
                   <h3>Visual Design</h3>
                   <p class="secondary-color">
@@ -203,9 +204,9 @@
               </div>
 
               <div class="row">
-                <div class="col-4 col-md-3">
+                <!-- <div class="col-4 col-md-3">
                   <img src="/images/index/design-delights.png" />
-                </div>
+                </div> -->
                 <div class="col-8 col-md-9">
                   <h3>Motion & Interaction</h3>
                   <p class="secondary-color">
@@ -215,9 +216,9 @@
               </div>
 
               <div class="row">
-                <div class="col-4 col-md-3">
+                <!-- <div class="col-4 col-md-3">
                   <img src="/images/index/design-delights.png" />
-                </div>
+                </div> -->
                 <div class="col-8 col-md-9">
                   <h3>Information Architecture</h3>
                   <p class="secondary-color">
@@ -379,7 +380,7 @@
       $(window).scroll(function () {
         console.log($(window).width());
         if ($(window).width() > 768) {
-          var hT = $(".intro").offset().top,
+          var hT = $(".intro").offset().top + 500,
             hH = $(".intro").outerHeight(),
             wH = $(window).height(),
             wS = $(this).scrollTop();

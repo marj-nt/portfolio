@@ -135,7 +135,7 @@ h3 {
 
 .p-large {
     font-family: "Roboto Condensed";
-    font-size: 4.5rem !important;
+    font-size: 4.5rem;
 }
 
 /* Text colors */
@@ -276,6 +276,10 @@ h3 {
 
 @media (min-width: 768px) {
 
+    .landing .p-large {
+        font-size: 3.5rem;
+    }
+
     .hide-sm {
         display: block;
     }
@@ -325,6 +329,20 @@ h3 {
     .sidenav .links img {
         width: 40px;
         margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 1336px) {
+    .landing .p-large {
+        font-size: 4rem !important
+    }
+}
+
+@media (min-width: 2560px) {
+
+    .landing .p-large {
+        font-size: 8rem !important
     }
 
 }

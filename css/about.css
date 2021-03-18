@@ -1,4 +1,7 @@
 
+.white-card {
+    display: block;
+}
 
 .intro p {
     font-size: 2rem;
@@ -9,6 +12,7 @@
     font-size: 2.4rem;
     font-style: italic;
     margin-bottom: 2.4rem;
+    font-weight: lighter;
 }
 
 .intro .white-card {
@@ -32,6 +36,9 @@
 
 .intro aside {
     color: whitesmoke;
+    border-left: 2px solid purple;
+    padding-left: 1.2rem;
+    margin-bottom: 2.4rem;
 }
 
 

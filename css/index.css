@@ -334,6 +334,7 @@ h2 {
 
     .intro h2 {
         font-size: 3.2rem;
+        white-space: nowrap;
     }
 
     .intro p {

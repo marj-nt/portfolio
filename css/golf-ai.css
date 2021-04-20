@@ -65,7 +65,7 @@ button {
 }
 
 #golf-ai-intro .row {
-    border-bottom: 2px solid lightgray;
+    /* border-bottom: 2px solid lightgray; */
     padding-top: 3.6rem;
 }
 

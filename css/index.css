@@ -413,6 +413,10 @@ h2 {
         margin-top: 9.2rem;
     }
 
+    .project-tools img {
+        background-color: white;
+    }
+
 }
 
 @media (min-width: 1336px) {

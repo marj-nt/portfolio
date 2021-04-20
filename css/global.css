@@ -103,10 +103,6 @@ h3 {
     color: #4c4c4c !important;
 }
 
-.main-content img:hover {
-    cursor: pointer;
-}
-
 .custom-list {
     list-style: none;
     padding-left: 0;
@@ -253,6 +249,14 @@ h3 {
     overflow: hidden;
     height: 100%;
 }
+
+.project-tools img {
+    filter: brightness(1.1);
+    filter: grayscale(1.0);
+    max-width: 75px;
+    cursor: default;
+}
+
 
 @keyframes rotation {
     from {

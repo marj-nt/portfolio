@@ -325,6 +325,12 @@ aside {
     cursor: pointer;
 }
 
+.project-tools img {
+    filter: brightness(1.1);
+    filter: grayscale(1.0);
+    max-width: 75px;
+}
+
 /* mobile */
 
 section {

@@ -277,7 +277,7 @@ h2 {
     background-color: rgba(222,208, 230, 0.9);
 }
 
-.design-delights, .experience {
+.design-delights, .experience, .project-tools {
     width: 90%;
     margin: 0 auto;
 }
@@ -374,8 +374,17 @@ h2 {
         margin-top: -40px;
     }
 
-    .design-delights, .experience {
+    .design-delights, .experience, .project-tools {
         padding: 4.8rem 9.6rem;
+    }
+
+    .project-tools {
+        padding-top: 0rem;
+        padding-bottom: 4.8rem;
+    }
+
+    .project-tools img {
+        background-color: transparent;
     }
 
     .design-delights .row .col-md-5 p {
@@ -414,7 +423,7 @@ h2 {
     }
 
     .project-tools img {
-        background-color: white;
+        max-width: 60px;
     }
 
 }

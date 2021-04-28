@@ -190,6 +190,10 @@ button {
     font-size: 1.6rem;
 }
 
+#golf-ai-reflection .row {
+    padding: 1.6rem 0rem;
+}
+
 .next-project .container {
     width: 100%
 }

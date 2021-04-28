@@ -267,7 +267,7 @@
                         <p class="p-large">How can we...</p>
                         <div class="problem-group">
                             <p class="problem">Develop the company’s brand?</p>
-                            <p class="problem">Develop the company’s design system for consistency and efficiency?</p>
+                            <p class="problem">Create a consistent and efficient design system?</p>
                             <p class="problem">Improve designer-development handoff?</p>
                         </div>
                     </div>
@@ -350,10 +350,20 @@
                     </div>
                     <div class="col-md-8">
                         <p>
-                            The first step was to build standard components.  For ideas on what we needed, I referenced the Golf AI app at that point, as well as Airbnb’s design system. <span class="tertiary-color">Ex: Navigation icons, form elements.</span>
-                            <br><br>
-                            We added <i>app-specific components</i> as the number of screens grew, so we could efficiently fill in content!  <span class="tertiary-color">Ex: Drill headers, action plan cards.</span>
-
+                            Our first step was to build standard components (with inspo from Airbnb's system).
+                            <ul>
+                                <li>Navigation bar</li>
+                                <li>Buttons</li>
+                                <li>Form elements</li>
+                            </ul>
+                        </p>
+                        <p>
+                            We added <i>app-specific components</i> along the way, based on what each screen needed.
+                            <ul>
+                                <li>Action plan cards</li>
+                                <li>Progress bar (with golf visuals)</li>
+                                <li>Fixed headers with tabs</li>
+                            </ul>
                         </p>
 
                     </div>
@@ -365,7 +375,13 @@
                     </div>
                     <div class="col-md-8">
                         <p>
-                            To create the desired <b>“soothing” and lightweight experience</b>, we limited boldness.  We mainly used 2px strokes for actionability and active states, while using light gray box shadows to group and separate elements.
+                            We created the ideal <b>"soothing and lightweight experience"</b> through:
+                            <ul>
+                                <li>Limiting boldness</li>
+                                <li>Using green mainly for active states and accent orange sparingly</li>
+                                <li>Using 2px strokes for actionability and active states</li>
+                                <li>Using light gray box shadows as a softer grouping/separator style</li>
+                            </ul>
                         </p>
 
                         <!-- Images -->
@@ -381,22 +397,22 @@
                 </div>
 
                 <h3 class="problem-title">Challenge Point 2</h2>
-                <p class="problem">How can we further develop the company’s design system for consistency and efficiency?</p>
+                <p class="problem">How can we create a consistent and efficient design system?</p>
 
                 <h3>Techniques</h3>
 
                 <div class="row">
                     <div class="col-md-6">
                         <img src="/images/golf-ai/components-1.jpg" onclick="enlarge(this)"/>
-                        <h4>Layout Responsiveness</h4>
-                        <p class="p-small">Dividing sections by proportional height helps us keep grouped content vertically centered.
+                        <h4>Responsive Layouts</h4>
+                        <p class="p-small">Giving each section a proportional height helped us responsively center content without fixed pixels.
                         </p>
                     </div>
                     
                     <div class="col-md-6">
                         <img src="/images/golf-ai/components-2.jpg" onclick="enlarge(this)"/>
                         <h4>Box Sizing</h4>
-                        <p class="p-small">We fixed text-box overflow behavior to account for different kinds of content.
+                        <p class="p-small">We determined character counts for each component to have sufficient space for info.
                         </p>
                     </div>
                 </div>
@@ -409,7 +425,7 @@
                     <div class="col-md-6">
                         <img src="/images/golf-ai/components-4.jpg" onclick="enlarge(this)"/>
                         <h4>Makeshift Variants</h4>
-                        <p class="p-small">Before Figma's official release of Variants (Nov. 2020), we used <i>layer visibility</i> to toggle active states for components.</p>
+                        <p class="p-small">Before Figma released variants (Nov. 2020), we used <i>layer visibility</i> to toggle active states for components.</p>
                     </div>
                 </div>
             </section>
@@ -418,7 +434,7 @@
 
                 <h2>Application to Screens <span class="h2-alt">Hi-Fi Process</span></h2>
 
-                <h3>Sample Work</h3>
+                <!-- <h3>Sample Work</h3> -->
 
                 <!-- <p class="p-small tertiary-color">Click to compare with midfi.</p> -->
 
@@ -456,7 +472,8 @@
                         <img src="/images/golf-ai/scaledown.png" onclick="enlarge(this)"/>
                         <h4>Scaling Down</h4>
                         <p class="p-small secondary-color">
-                            Our initial hifis were in iPhone X size, based on the midfis we received.  After noticing our first handoff had errors, I pushed for us to start smaller (esp. if everything fit on one page).  From that point on, <b>all of our main references were for iPhone 8.</b>
+                            Our first handoffs using iPhone X artboards had squished content.
+                            I pushed for us to start smaller (esp. if everything fit on one page).  From that point on, <b>all of our main references were for iPhone 8.</b>
                         </p>
                     </div>
 
@@ -465,7 +482,7 @@
                         <img src="/images/golf-ai/responsive.png" onclick="enlarge(this)"/>
                         <h4>Vertical Responsiveness (Login Screen)</h4>
                         <p class="p-small secondary-color">
-                            I had difficulty calculating margin sizes (in orange) so all device versions looked balanced.  A developer suggested a more flexible approach: <b>group content to dynamically center.</b>  This saved me time from <i>fixating on numbers</i>, and I started to rely more on Figma’s smart constraints.
+                            I was stuck calculating margins (in orange) that looked balanced for all devices.  A developer suggested a more flexible approach: <b>group content to dynamically center.</b>  I learned to not <i>fixate on numbers</i> and rely on Figma’s smart constraints.
                         </p>
                     </div>
 
@@ -482,15 +499,15 @@
 
                     <div class="col-md-6">
                         <p class="p-small secondary-color">
-                            Before user tests, we gave our UX Researcher interactive prototypes with generated questions.  Our common questions were often visual focused, some being how do users...
+                            Before user tests, we gave our UX Researcher interactive prototypes.  Our questions were often visual focused, focusing on how users...
                         </p>
                         
                             <ul class="custom-list ul-small">
                                 <li>
-                                    understand what iconography choices represent
+                                    understand what iconography represents
                                 </li>
                                 <li>
-                                    see how elements look interactive based on boldness/size/color
+                                    interpret interactive elements based on boldness/size/color
                                 </li>
                                 <li>
                                     interpret their golf skill progress or statistics based on colors
@@ -641,7 +658,7 @@
                 </h3>
                 <p class="problem">How can we improve designer-development handoff?</p>
 
-                <p>According to the previous UX team, difficulties communicating resulted in inconsistent spacing.  <b>My HTML/CSS background helped us share language for more accurate builds.</b>
+                <p>According to the previous UX team, difficulties communicating resulted in inconsistent spacing in the app.  <b>My HTML/CSS background helped us share language for more accurate builds.</b>
                     <br><br>
                     We had pre-development meetings for devs to validate the <i>structural logic</i> of our hifis.  For any questions about feasibility, we tried to save effort and address them before finishing mockups.  In 3 weeks, we were consistently presenting the following info:</p>
 
@@ -654,20 +671,13 @@
                        
                         <img src="/images/golf-ai/handoff-1.png" onclick="enlarge(this)"/>
                         <h4>Pseudocode</h4>
-                        <p class="p-small">Previously, handoff for Zeplin didn’t include descriptions.  <b>I started to write CSS-based notes on element behavior</b> (finding the best margin, positioning, or sizing rules for all devices).
-                            <br><br>
-                            Example cases:
-                            <ul class="custom-list">
-                                <li class="p-small">Elements positioned relative to the bottom or right</li>
-                                <li class="p-small">Using proportional height for devices (ex: this image should be 50% screen height)</li>
-                                <li class="p-small">Fixed sizes (ex: this card has a fixed height of 80pt) v. responsive sizes (ex: the banner should be 100% screen width)</li>
-                            </ul>
+                        <p class="p-small">Previously, handoff for Zeplin didn’t include descriptions.  <b>I wrote CSS-based syntax for element behavior</b> (finding the best margin, positioning, or sizing rules for all devices).
                         </div>
                     <div class="col-md-6">
                         <h3>Figma</h3>
                         <img src="/images/golf-ai/handoff-3.png" onclick="enlarge(this)">
                         <h4>Interaction Annotations</h4>
-                        <p class="p-small">Being able to see all artboards at once, <b>we created annotations for microinteractions and how screens connected</b>.
+                        <p class="p-small">We took advantage of the artboard overview to <b>create annotations for microinteractions and how screens connected</b>.
                             <br><br>
                             This is also where we placed iPhone X and 6/7/8+ appearances and prototypes for the devs to reference.
                             
@@ -769,11 +779,17 @@
                         <h3>Areas to Grow</h3>
                     </div>
                     <div class="col-md-7">
-                        <h4>Working practically</h4>
+                        <h4>Designing practically</h4>
                         <p>
-                            One of my biggest personal/professional challenges was remembering to choose practicality over perfection (and pushing pixels)!  I had to work through my discomfort asking for feedback when a design wasn’t fully fleshed out.  Going forward, my goal is to get comfortable sharing my early stages so I can focus on high-level understanding of a flow.
+                            I had to challenge myself to be practical - flexible and responsive - over being pixel-perfect.
                             <br><br>
-                            This applies to working cross-functionally too.  Our process for handing of development specs was trial-and-error that never reached 100% perfection.  I realize that the 3 developers we worked with each have their own coding/organizational styles, and as a designer <b>it’s better to be flexible than exact</b> in order to work together.
+                            I also had to challenge my discomfort presenting early-stage drafts that weren't fully fleshed out yet.  Going forward, I want to become comfortable at this stage so I can focus on UX needs and visual design equally.
+                        </p>
+                            <h4>Being a cross-functional team player</h4>
+                        <p>
+                            Our handoff process was trial-and-error that never reached 100% perfection.  I realize that our 3 developers each have their own working styles (coding or organization).  To work smarter, it's best to be on the same page about what assets each team needs and cut out unneeded details. 
+                            <br><br>
+                            
                         </p>
                     </div>
                 </div>

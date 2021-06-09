@@ -206,6 +206,14 @@ button {
     background-color: rgb(184, 237, 221, 0.9)
 }
 
+.white-card {
+    display: flex;
+}
+
+.white-card .outer {
+    margin: auto;
+}
+
 @media (min-width: 768px) {
 
     /* #golf-ai-screens .col-md-6 img, #golf-ai-screens .col-md-6 p, #golf-ai-screens .col-md-6 video {

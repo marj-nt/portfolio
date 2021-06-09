@@ -334,6 +334,14 @@ section {
     padding: 2.4rem 0;
 }
 
+.white-card {
+    display: flex;
+}
+
+.white-card .outer {
+    margin: auto;
+}
+
 @media (min-width: 768px) {
     .main-content {
         width: 85%;

@@ -294,8 +294,8 @@ aside {
 }
 
 .next-project {
-    position: relative;
     border: 10px solid whitesmoke;
+    position: relative !important;
 }
 
 .next-project img {

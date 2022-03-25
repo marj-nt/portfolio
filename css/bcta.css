@@ -1,0 +1,107 @@
+.landing {
+    background-image: url('/images/bcta/landing.jpg');
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-size:auto 100vh;
+    background-position: right;
+    border-bottom: 1.6rem solid #A3D68B;
+}
+
+.landing-top {
+    background-image: url('/images/bcta/landing.jpg');
+}
+
+.landing-sm h1 {
+    font-size: 1.6rem;
+}
+
+.landing-bottom {
+    border-left: 2px solid #A3D68B;
+}
+
+.projects-logo {
+    width: 10rem;
+}
+
+img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 60rem;
+}
+
+.highlight {
+    background-color: #A3D68B;
+    color: #2c2c2c;
+}
+
+#mss-appendix img, #mss-appendix iframe {
+    width: 70%;
+    max-width: 50rem;
+    max-height: 50rem;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+figcaption {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 3.2rem;
+}
+
+/* #mss-ca iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+}
+
+#mss-ca figure {
+    padding: 0px !important;
+}
+
+.google-slides-container{
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+    overflow: hidden;
+    margin: 20px 0px;
+} */
+
+.sidenav {
+    background-color: #A3D68B !important;
+}
+
+.sidenav-sm {
+    background-color: rgb(133, 182, 197, 0.9)
+}
+
+.tennis-bg {
+    background-image: url('/images/bcta/tennis-ball.png');
+    background-position: center;
+    background-size: 6rem 6rem!important;
+    background-repeat: no-repeat;
+
+    display: flex;
+    font-size: 1.33rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.table {
+    font-size: 1.33rem;
+}
+
+.next-project {
+
+}
+
+@media (min-width: 768px) {
+    .landing h1 {
+        font-size: 2.4rem;
+    }
+}

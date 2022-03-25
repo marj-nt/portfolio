@@ -245,19 +245,23 @@ h2 {
 }
 
 .experience .row:nth-of-type(1) .image {
-    background-image: url('/images/index/golf-ai.png');
+    background-image: url('/images/index/bcta.png');
 }
 
 .experience .row:nth-of-type(2) .image {
+    background-image: url('/images/index/golf-ai.png');
+}
+
+.experience .row:nth-of-type(3) .image {
     background-image: url('/images/index/mss.png');
     filter: t;
 }
 
-.experience .row:nth-of-type(3) .image {
+.experience .row:nth-of-type(4) .image {
     background-image: url('/images/index/fp.png');
 }
 
-.experience .row:nth-of-type(4) .image {
+.experience .row:nth-of-type(5) .image {
     background-image: url('/images/index/mt.png');
 }
 

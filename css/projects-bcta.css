@@ -9,18 +9,24 @@ body {
 }
 
 .hero {
-    background-image: url('/2023/hero-bcta.png');
+    background-image: url('/2023/bcta-hero.png');
     background-size: cover;
     height: 100vh;
-    position: relative;
+
+    
 }
 
 .hero-details {
-    position: absolute;
-    bottom: 24px;
+    /* position: absolute;
+    bottom: 24px; */
     background-color: white;
     background-size: contain;
     padding: 1rem;
+    position: absolute;
+    width: 90%;
+    bottom: 5%;
+    margin: 0 auto;
+   
 }
 
 .results-container {
@@ -55,6 +61,16 @@ p, li, .client-overview .p-small {
 
 .client-overview p {
     font-size: 1.8rem;
+}
+
+.client-overview .quote {
+    display: flex;
+    align-items: center;
+}
+
+.client-overview .quote img {
+    border-radius: 100%;
+    margin-right: 24px;
 }
 
 hr {

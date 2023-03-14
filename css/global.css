@@ -47,7 +47,7 @@ h2 {
     font-size: 2.6rem;
     letter-spacing: 1.18rem;
     text-transform: uppercase;
-    margin-bottom: 24px;
+    
 }
 
 
@@ -139,7 +139,13 @@ section {
     padding: 0px 6rem;
 }
 
+h2, h3, h4 {
+    margin-bottom: 24px;
+}
 
+.extraspace {
+    margin-bottom: 24px;
+}
 /* Text colors */
 
 .primary-color {

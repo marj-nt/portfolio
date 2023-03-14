@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+
+
+
 /* Animation */
 
 /* https://codepen.io/whusterj/pres/bdYKop */
@@ -27,23 +33,81 @@ html {
     overflow-x: hidden !important;
 }
 
+html {
+    font-family: "Jost" !important;
+}
+
+body {
+    font-family: "Jost" !important;
+}
+
+/* Global Fonts */
+
+h2 {
+    font-size: 2.6rem;
+    letter-spacing: 1.18rem;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+
+h3 {
+    font-size: 2.6rem;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 150%;
+}
+
+h1 {
+    font-size: 5.625rem;
+}
+
+p {
+    font-size: 2.06rem;
+}
+
+.p-small {
+    font-size: 1.75rem;
+}
+
+b {
+    font-style: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.highlight {
+    background-color: #E3E9FF;
+}
+
+.strip {
+    background-color: #E3E9FF;
+    /* background-size: 100px; */
+    color: rgba(0,0,0,0);
+    margin-bottom: -32px;
+    margin-left: 24px;
+    width: 50%;
+
+}
+
+.quote {
+    padding: 2rem;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+
 /* Global CSS */
 
 body {
     overflow-x:hidden!important;
 }
 
-h2 {
-    font-family: "Roboto Condensed";
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: #4b4b4b;
-}
-
-h3 {
-    font-size: 18px;
-}
 
 .center {
     text-align: center;
@@ -53,86 +117,28 @@ h3 {
     text-align: left !important;
 }
 
-.projects .intro h1 {
-    margin-bottom: 24px;
+.middle {
+    vertical-align: middle;
 }
 
-.projects .intro aside {
-    margin-bottom: 24px;
+.inline {
+    display: inline-block;
 }
 
-.projects .intro img {
-    border: 4px solid white;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+/* Spacing */
+
+section {
+    margin-bottom: 10rem;
 }
 
-
-.projects .intro p {
-    font-size: 20px;
+.subsection {
+    margin-bottom: 5rem;
 }
 
-.projects .intro button {
-    padding: 16px 8px;
-    font-size: 20px;
-    background: rgba(155, 155, 155, 0.5);
-    color: white;
-    border-radius: 100px;
-    border: none;
-    padding-left: 16px;
-    padding-right: 16px;
+section {
+    padding: 0px 6rem;
 }
 
-.projects .intro button:hover {
-    color: #ABFFB3;
-}
-
-.accent-green {
-    color: #ABFFB3;
-}
-
-.container-fluid {
-    width: 90%;
-}
-
-.full-height {
-    height: 100vh;
-}
-
-.small-caption {
-    font-size: 1.4rem;
-    color: #4c4c4c !important;
-}
-
-.custom-list {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 1.6rem;
-    margin-bottom: 1.6rem;
-}
-.custom-list li {
-    font-family: 'Roboto';
-    font-size: 1.8rem;
-    font-style: italic;
-    position: relative;
-    padding: 0.8rem 0rem 0.8rem 2rem;
-}
-.custom-list li:before {
-    content: '';
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    background-image: url('/images/bullet.png');
-    background-size: cover;
-    background-position: center;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.p-large {
-    font-family: "Roboto Condensed";
-    font-size: 4.5rem;
-}
 
 /* Text colors */
 
@@ -150,6 +156,48 @@ h3 {
 
 .white-color {
     color: whitesmoke;
+}
+
+.linear-purple {
+    background: linear-gradient(#EEE7FF, #DDE9FF);
+}
+
+/* Footer */
+
+.footer {
+    background-color: #524D64;
+    background-image: url('/2023/hero.png');
+    background-position: center;
+    color: white;
+
+    padding: 4rem 0rem;
+}
+
+.footer button {
+    font-size: 2.5rem;
+    color: white;
+    background: none;
+    padding: 1rem 2rem !important;
+    border: 2px solid white;
+    animation-duration: 0.3s;
+}
+
+.footer button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    animation-duration: 0.3s;
+}
+
+.footer h2, .footer button, .footer p {
+    margin-bottom: 24px;
+}
+
+.footer img {
+    max-width: 48px;
+    margin: 0px 2rem 0px 2rem;
+}
+
+.footer .row {
+    display: flex;
 }
 
 /* Mobile */
@@ -257,6 +305,10 @@ h3 {
     cursor: default;
 }
 
+img {
+    width: 100%;
+}
+
 
 @keyframes rotation {
     from {
@@ -305,7 +357,7 @@ h3 {
         padding-left: 0rem;
         opacity: 0;
     
-        font-family: "Roboto Condensed";
+        font-family: "Jost";
     
     }
     

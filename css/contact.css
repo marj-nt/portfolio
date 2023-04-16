@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.contact-form {
+    font-size: 2rem;
+    font-family: "Jost";
+}
+
+.contact-form form {
+    padding: 96px;
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
+
+  input, textarea {
+    border-radius: 8px;
+  }
+
+.contact-form button {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 2rem;
+    min-width: 300px;
+    background: #524D64;
+    color: white;
+    font-family: "Jost";
+}
+
+.contact-form textarea {
+    min-height: 200px;
+}

@@ -20,10 +20,13 @@ body {
     margin-bottom: 24px;
 }
 
+.my-creative-focus img, .my-process img {
+    margin-bottom: 24px !important;
+}
 
 
 .hero {
-    height: 100vh;
+    
     background-image: url("/2023/hero.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,4 +45,15 @@ justify-content: center;
 .dribbble a {
     color: black;
     font-weight: bold !important;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        min-height: 100vh;
+    }
+
+    .my-creative-focus img, .my-process img {
+        margin-bottom: 0px !important;
+    }
+
 }

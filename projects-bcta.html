@@ -26,108 +26,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
     <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/modal.css" />
     <link rel="stylesheet" href="/css/projects-bcta.css" />
 
     <title>Website Redesign - Bay Community Tennis Association</title>
+
+    <script src="js/modal.js" language="JavaScript" type="text/javascript"></script> 
+    <script src="js/navigation.js" language="JavaScript" type="text/javascript"></script> 
+    <script src="js/footer.js" language="JavaScript" type="text/javascript"></script> 
   </head>
 
   <header></header>
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/index.html">Marjorie Tolentino</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about-new.html">About</a>
-        </li>
-        <li class="nav-item active dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Works
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/projects-bcta.html">Bay Community Tennis Association</a>
-            <a class="dropdown-item" href="/projects-whova.html">Whova</a>
-            <!-- <a class="dropdown-item" href="#">Whova</a>
-            
-            <a class="dropdown-item" href="#">Breaking Barriers, Catching Hope</a> -->
-          </div>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/contact.html">Contact</a>
-        </li>
-        
-      </ul>
-    </div>
-  </nav>
+  <div id="navigation"></div>
 
   <body>
     <main>
-      <!-- <nav class="sidenav hide-sm">
-        <ul class="links">
-          <li>
-            <a class="active" href="/index.html">Home</a>
-          </li>
-          <li>
-            <a href="/about.html">About</a>
-          </li>
-          <li>
-            <a href="/resume.pdf">Resume</a>
-          </li>
-          <li>
-            <a href="mailto:marjorientolentino@gmail.com">
-              <img src="/images/email.png" alt="Click to send me an email" />
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/mntolent">
-              <img src="/images/linkedin.png" alt="Click to view my Linkedin" />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/marj-nt">
-              <img src="/images/github.png" alt="Click to view my Github" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <nav class="sidenav-sm hide-lg">
-        <div class="hamburger-sm">&#9776;</div>
-
-        <ul class="links">
-          <li>
-            <a class="active" href="/index.html">Home</a>
-          </li>
-          <li>
-            <a href="/about.html">About</a>
-          </li>
-          <li>
-            <a href="/resume.pdf">Resume</a>
-          </li>
-          <li>
-            <a href="mailto:marjorientolentino@gmail.com">
-              <img src="/images/email.png" alt="Click to send me an email" />
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/mntolent">
-              <img src="/images/linkedin.png" alt="Click to view my Linkedin" />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/marj-nt">
-              <img src="/images/github.png" alt="Click to view my Github" />
-            </a>
-          </li>
-        </ul>
-      </nav> -->
 
       <section class="hero center">
         <div class="hero-details center">
@@ -144,18 +58,22 @@
       </section>
 
       <section class="client-overview">
+     
         <div class="row justify-content-center">
           <div class="col-md-9">
             <h2>Client Overview</h2>
             <div class="row">
               <div class="col-md-8">
+                <div class="subsection">
                 <p>Bay City Tennis Association's mission is to grow tennis in the community by providing public courts and services. </p>
                 <div class="quote linear-purple">
                   <img src="/2023/bcta-client.jpeg"><p>"Our two main goals are to: raise awareness and raise funds." - Joe Ricard, President</p>
                 </div>
                 <p>The website's goal is to attract community members and donors to help maintain the facility of eight brand new courts. </p>
+                </div>
               </div>
               <div class="col-md-4">
+                <div class="subsection">
                 <h3>PROBLEM SPACE</h3>
                 <p class="p-small">The site was outdated for 6 years with the problems:
                   <ul>
@@ -165,6 +83,7 @@
                     <li>Not mobile responsive</li>
                   </ul>
                 </p>
+                </div>
 
                 <h3>SOLUTIONS</h3>
                   <div class="row align-items-center">
@@ -276,7 +195,7 @@
 
         <h2>Project Strategy</h2>
         
-        <div class="project-step">
+        <div class="project-step subsection">
         <div class="row align-items-center">
           <div class="col">
           <h3>STEP 1: RESEARCH AND STRATEGY</h3>
@@ -312,7 +231,7 @@ Ideally the funnel should convert visitors to
         
         </div>
 
-        <div class="project-step">
+        <div class="project-step subsection">
           <div class="row align-items-center">
             <div class="col">
             <h3>STEP 2: CONTENT WRITING</h3>
@@ -335,7 +254,7 @@ Ideally the funnel should convert visitors to
           
           </div>
 
-          <div class="project-step">
+          <div class="project-step subsection">
             <div class="row align-items-center">
               <div class="col">
               <h3>STEP 3: MID-FIDELITY PROTOTYPE</h3>
@@ -365,7 +284,7 @@ I then revised both navigation and content based on that feedback.
             
             </div>
 
-            <div class="project-step">
+            <div class="project-step subsection">
               <div class="row align-items-center">
                 <div class="col">
                 <h3>STEP 4: HI-FIDELITY PROTOTYPE</h3>
@@ -388,7 +307,7 @@ I then revised both navigation and content based on that feedback.
               
               </div>
 
-              <div class="project-step">
+              <div class="project-step subsection">
                 <div class="row align-items-center">
                   <div class="col">
                   <h3>STEP 5: WEBSITE BUILDING</h3>
@@ -451,6 +370,7 @@ We were able to take advantage of Wix’s mobile responsiveness, but I adjusted 
             <div class="subsection audience">
               <div class="row">
                 <div class="col-md-6">
+                  <div class="subsection">
                   <h3>Audience Motivations</h3>
                   <img src="/2023/bcta-content-1.png" onclick="enlarge(this)"/>
                   <p>
@@ -461,6 +381,7 @@ We were able to take advantage of Wix’s mobile responsiveness, but I adjusted 
                       <li>Inexpensive, recreational activity (also low barrier to entry)</li>
                     </ul>
                   </p>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <h3>Audience Needs</h3>
@@ -491,25 +412,25 @@ We were able to take advantage of Wix’s mobile responsiveness, but I adjusted 
 
             <div class="row">
               <div class="col">
-                <img src="/2023/bcta - colors.png"/>
+                <img src="/2023/bcta - colors.png" onclick="enlarge(this)"/>
               </div>
               <div class="col">
-                <img src="/2023/bcta - symbols.png"/>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col">
-                <img src="/2023/bcta - fonts.png"/>
-              </div>
-              <div class="col">
-                <img src="/2023/bcta - buttons.png"/>
+                <img src="/2023/bcta - symbols.png" onclick="enlarge(this)"/>
               </div>
             </div>
 
             <div class="row">
               <div class="col">
-                <img src="/2023/bcta - requests.png"/>
+                <img src="/2023/bcta - fonts.png" onclick="enlarge(this)"/>
+              </div>
+              <div class="col">
+                <img src="/2023/bcta - buttons.png" onclick="enlarge(this)"/>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="/2023/bcta - requests.png" onclick="enlarge(this)"/>
               </div>
             </div>
             
@@ -549,31 +470,9 @@ We were able to take advantage of Wix’s mobile responsiveness, but I adjusted 
 
       </div>
 
-      <div class="footer center">
-        <h2>Are you ready to promote your brand?</h2>
-        <button>Request a design service</button>
-        <p>For general questions or quotes, please say hi at marjorientolentino@gmail.com</p>
+      <div id="footer"></div>
 
-        <div class="inline">
-        
-            <a href="https://www.dribbble.com/marjorie-tolentino">
-            <img src="/2023/footer-dribbble.png"/>
-            </a>
-      
-            <a href="mailto:marjorientolentino@gmail.com">
-            <img src="/2023/footer-email.png"/>
-            </a>
-          
-          </div>
-       
-            <a href="https://linkedin.com/mntolent">
-            <img src="/2023/footer-linkedin.png"/>
-            </a>
-    
-        </div>
-      </div>
-
-
+      <div id="modal01" class="modal">#</div>
 
       <div class="loader-wrapper">
         <img src="/images/icon-grey.png" />

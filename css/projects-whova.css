@@ -9,25 +9,25 @@ body {
 }
 
 .hero {
-    background-image: url('/2023/bcta-hero.png');
+    background-image: url('/2023/whova-hero.png');
     background-size: cover;
-    height: 75vh;
-    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
 
     
+}
+
+.graphic-designs img {
+    margin-bottom: 24px;
 }
 
 .hero-details {
     /* position: absolute;
     bottom: 24px; */
-    background-color: white;
+    color: white;
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     padding: 1rem;
-
-    margin: 0 auto;
-    width: 100% !important;
 
    
 }
@@ -42,17 +42,14 @@ body {
 
 h3 {
     font-size: 2rem;
-    /* Mobile */
-    letter-spacing: 0.5rem;
+    letter-spacing: 1.5rem;
 
 }
 
 h4 {
     font-size: 1.8rem;
+    letter-spacing: 0.2rem;
     font-style: italic;
-
-    /* mobile */
-    letter-spacing: 0rem;
 
 }
 
@@ -61,20 +58,20 @@ h5 {
     font-style: italic;
 }
 
-p, li, .client-overview .p-small {
+p, li, .company-overview .p-small {
     font-size: 1.6rem;
 }
 
-.client-overview p {
+.company-overview p {
     font-size: 1.8rem;
 }
 
-.client-overview .quote {
+.company-overview .quote {
     display: flex;
     align-items: center;
 }
 
-.client-overview .quote img {
+.company-overview .quote img {
     border-radius: 100%;
     margin-right: 24px;
 }
@@ -86,7 +83,7 @@ hr {
     margin: 2rem auto;
 }
 
-.client-overview img {
+.company-overview img {
     max-width: 40px;
 }
 
@@ -107,25 +104,24 @@ hr {
     margin-bottom: 48px;
 }
 
+.graphic-designs img:hover {
+    cursor: pointer;
+}
 
 @media (min-width: 768px) {
+    .graphic-designs img {
+        margin-bottom: 0px;
+    }
+
     .hero {
-        min-height: 100vh;
+        background-size: cover;
     }
 
     .hero-details {
         position: absolute;
         width: 90%;
-        bottom: 5%;
+        bottom: 55%;
         margin: 0 auto;
-        background-color: white;
     }
-
-    h3 {
-        letter-spacing: 1.5rem;
-    }
-
-    h4 {
-        letter-spacing: 0.2rem;
-    }
+    
 }

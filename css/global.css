@@ -39,6 +39,11 @@ html {
 
 body {
     font-family: "Jost" !important;
+
+}
+
+.hero {
+    padding-top: 72px;
 }
 
 /* Global Fonts */
@@ -136,11 +141,12 @@ section {
 }
 
 section {
-    padding: 0px 6rem;
+    padding: 0px 3rem;
 }
 
 h2, h3, h4 {
-    margin-bottom: 24px;
+    /* Mobile */
+    margin-bottom: 16px;
 }
 
 .extraspace {
@@ -204,6 +210,16 @@ h2, h3, h4 {
 
 .footer .row {
     display: flex;
+}
+
+main {
+    min-height: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+    font-size: 1.5rem;
 }
 
 /* Mobile */
@@ -337,6 +353,30 @@ img {
 /* Sidenav */
 
 @media (min-width: 768px) {
+
+    .hero {
+        padding-top: 0px;
+    }
+
+    h2, h3, h4 {
+        margin-bottom: 16px;
+    }
+
+    h2 {
+        margin-bottom: 24px;
+    }
+
+    h3 {
+        margin-bottom: 12px;
+    }
+
+    section {
+        padding: 0px 6rem;
+    }
+
+    .subsection {
+        margin-bottom: 3rem;
+    }
 
     .landing .p-large {
         font-size: 3.5rem;

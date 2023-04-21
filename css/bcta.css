@@ -96,8 +96,8 @@ figcaption {
     font-size: 1.33rem;
 }
 
-.next-project {
-
+.project-strategy img:hover, .content-strategy img:hover {
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {

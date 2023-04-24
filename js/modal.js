@@ -8,6 +8,8 @@ function enlarge(element) {
 
     var imgHeight = element.naturalHeight;
 
+    console.log(element)
+
     console.log(imgHeight);
     
     document.getElementById("img01").src = element.src;

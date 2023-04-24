@@ -316,7 +316,7 @@ main {
 }
 
 .disable-scrolling {
-    overflow: hidden;
+    overflow: hidden !important;
     height: 100%;
 }
 

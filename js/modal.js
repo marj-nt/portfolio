@@ -17,6 +17,7 @@ function enlarge(element) {
     document.getElementById("modal01").style.display = "inline-block";
 
     $("html").addClass("modal-open");
+    document.getElementById("navigation").style.display = "none";
 
     if(element.classList.contains('tall')) {
         $(".modal-content").addClass('supertall');
@@ -63,4 +64,5 @@ function enlarge(element) {
 function exit(element) {
     $("html").removeClass("modal-open");
     document.getElementById("modal01").style.display = "none";
+    document.getElementById("navigation").style.display = "flex";
 }

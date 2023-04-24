@@ -37,7 +37,7 @@ body {
     background-size: cover;
     /* background: linear-gradient(#0A001F, #001C65); */
     color: white;
-    padding: 12rem 0rem;
+    padding: 3rem 0rem;
 }
 
 h3 {
@@ -98,6 +98,10 @@ hr {
     font-size: 4.5rem;
 }
 
+.results-container .col-md-3 {
+    margin-bottom: 24px;
+}
+
 .brand-strategy img {
     width: 90%;
     max-width: 700px;
@@ -127,5 +131,13 @@ hr {
 
     h4 {
         letter-spacing: 0.2rem;
+    }
+
+    .results-container {
+        padding: 12rem 0rem;
+    }
+
+    .results-container .col-md-3 {
+        margin-bottom: 0px;
     }
 }

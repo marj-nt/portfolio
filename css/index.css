@@ -47,6 +47,11 @@ justify-content: center;
     font-weight: bold !important;
 }
 
+.my-process a {
+    text-decoration: none;
+    color: #524D64;
+}
+
 @media (min-width: 768px) {
     .hero {
         min-height: 100vh;
@@ -54,6 +59,16 @@ justify-content: center;
 
     .my-creative-focus img, .my-process img {
         margin-bottom: 0px !important;
+    }
+
+    .my-process img {
+        filter: brightness(1.0);
+        transition: filter 0.3s ease-in;
+    }
+
+    .my-process img:hover {
+        filter: brightness(1.075);
+        transition: filter 0.3s ease-out;
     }
 
 }

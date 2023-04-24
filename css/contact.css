@@ -4,13 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
+body {
+    padding-top: 8rem;
+}
 .contact-form {
     font-size: 2rem;
     font-family: "Jost";
-}
-
-.contact-form form {
-    padding: 96px;
 }
 
 label,input{
@@ -18,7 +17,8 @@ label,input{
     flex-direction:column;
   }
 
-  input, textarea {
+  input, textarea, select {
+    width: 100%;
     border-radius: 8px;
   }
 
@@ -30,8 +30,25 @@ label,input{
     background: #524D64;
     color: white;
     font-family: "Jost";
+
+    filter: brightness(1.0);
+}
+
+.contact-form button:hover {
+    filter: brightness(1.5);
 }
 
 .contact-form textarea {
     min-height: 200px;
+}
+
+form textarea {
+    margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+    form {
+        width: 80%;
+        margin: 0 auto;
+    }
 }

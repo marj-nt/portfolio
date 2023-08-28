@@ -152,6 +152,14 @@ h2, h3, h4 {
 .extraspace {
     margin-bottom: 24px;
 }
+
+.space-24 {
+    margin-bottom: 24px;
+}
+.space-48 {
+    margin-bottom: 48px;
+}
+
 /* Text colors */
 
 .primary-color {
@@ -166,12 +174,20 @@ h2, h3, h4 {
     color: #6e6e6e !important;
 }
 
+.color-red {
+    color: #83211A;
+}
+
 .white-color {
     color: whitesmoke;
 }
 
 .linear-purple {
     background: linear-gradient(#EEE7FF, #DDE9FF);
+}
+
+.dropshadow {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer */

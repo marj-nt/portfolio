@@ -90,15 +90,7 @@ b {
     background-color: #E3E9FF;
 }
 
-.strip {
-    background-color: #E3E9FF;
-    /* background-size: 100px; */
-    color: rgba(0,0,0,0);
-    margin-bottom: -32px;
-    margin-left: 24px;
-    width: 50%;
 
-}
 
 .quote {
     padding: 2rem;
@@ -422,6 +414,16 @@ img {
 
     .hide-lg {
         display: none !important;
+    }
+
+    .strip {
+        background-color: #E3E9FF;
+        /* background-size: 100px; */
+        color: rgba(0,0,0,0);
+        margin-bottom: -32px;
+        margin-left: 24px;
+        width: 50%;
+    
     }
 
     .sidenav {

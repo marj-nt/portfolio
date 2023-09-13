@@ -52,6 +52,18 @@ justify-content: center;
     color: #524D64;
 }
 
+.video-note {
+    /* text-transform: uppercase; */
+    letter-spacing: 0.1rem;
+    color: #6e6e6e;
+
+}
+
+.vid {
+    background: linear-gradient(#ECFCF8, #E3FAF4);
+    
+}
+
 @media (min-width: 768px) {
     .hero {
         min-height: 100vh;
@@ -70,5 +82,10 @@ justify-content: center;
         filter: brightness(1.075);
         transition: filter 0.3s ease-out;
     }
+
+    .vid {
+        background: linear-gradient(#EFEEED, #F6FDFB);
+    }
+
 
 }

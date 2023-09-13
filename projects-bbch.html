@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/modal.css" />
     <link rel="stylesheet" href="/css/projects-bbch.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Website Redesign - Breaking Barriers, Catching Hope</title>
 
@@ -43,7 +44,7 @@
   <div id="navigation"></div>
 
   <body>
-    <main>
+    <main class="projects">
 
       <section class="hero center">
         <div class="hero-details center dropshadow">
@@ -540,5 +541,10 @@ organization sites
         });
       });
     </script>
+
+    <!-- Animate on scroll -->
+    <script src="js/addAOS.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
   </body>
 </html>

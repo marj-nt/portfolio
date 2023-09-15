@@ -128,7 +128,7 @@
           <div class="col-md-6">
             <div class="strip">'</div>
             <h3>Video Editing</h3>
-            <p class="p-small video-note hide-sm">(hover to play)</p>
+            <a><p class="p-small video-note hide-sm">click to watch</p></a>
           </div>
         </div>
       </section>
@@ -225,16 +225,19 @@
 
       // Listening to the video element
       let clip = document.querySelector(".vid")
+      let button = document.querySelector(".video-note")
 
       /* Adding the event listeners on the video to play/pause the video. */
-      clip.addEventListener("mouseover", function (e) {
-         clip.play();
+      button.addEventListener("click", function (e) {
+        if(clip.paused) {
+          clip.play();
+          button.text('pause');
+        } else {
+          clip.pause();
+          button.text('play');
+        }
       })
 
-      /* Applying the mouse out event to pause the video */
-      clip.addEventListener("mouseout", function (e) {
-         clip.pause();
-      })
    </script>
     
     <script>

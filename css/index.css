@@ -59,6 +59,11 @@ justify-content: center;
 
 }
 
+.video-note:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .vid {
     background: linear-gradient(#ECFCF8, #E3FAF4);
     
